@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="source/css/style.css" rel="stylesheet">
+    <link href="source/css/botones.css" rel="stylesheet">
+    <title>Inventario Kim</title>
+</head>
+<body>
+
+    <section class="contenedor">
+        <div class="cabecera">   
+            <label onclick="cerrar()" id="atras" class="indicaciones">
+                Cerrar Sesión
+            </label>
+            <label id="usuario" class="nombre"></label>
+        <img class="fotouser" src="source/img/user.png" alt="User" style="height: 50%;">
+        </div>
+
+        <p></p>
+
+        <div id="principal">
+            <div id="p1">
+                <button onclick="inventario()" class="boton-white-ext">
+                    <span class="linea1"></span>
+                    <span class="linea2"></span>
+                    <span class="linea3"></span>
+                    <span class="linea4"></span>
+                    <a href="#">Inventario</a>
+                </button>
+                <button onclick="proveedor()" class="boton-white-ext">
+                    <span class="linea1"></span>
+                    <span class="linea2"></span>
+                    <span class="linea3"></span>
+                    <span class="linea4"></span>
+                    <a href="#">Proveedores</a>
+                </button>
+            </div>
+
+            <p></p>
+
+            <div id="p2">
+                <button onclick="cliente()" class="boton-white-ext">
+                    <span class="linea1"></span>
+                    <span class="linea2"></span>
+                    <span class="linea3"></span>
+                    <span class="linea4"></span>
+                    <a href="#">Clientes</a>
+                </button>
+                <button onclick="producto()" class="boton-white-ext">
+                    <span class="linea1"></span>
+                    <span class="linea2"></span>
+                    <span class="linea3"></span>
+                    <span class="linea4"></span>
+                    <a href="#">Producto</a>
+                </button>
+            </div>
+            
+            <div id="p3">
+                <button onclick="notas()" class="boton-white-ext">
+                    <span class="linea1"></span>
+                    <span class="linea2"></span>
+                    <span class="linea3"></span>
+                    <span class="linea4"></span>
+                    <a href="#">Notas</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="source/js/menu.js"></script>
+</body>
+</html>
